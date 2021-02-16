@@ -376,7 +376,7 @@ nav a:hover {
     width: 20rem;
   }
   .game-card {
-    width: 15rem;
+    width: 20rem;
   }
 }
 /* ray-tracing section 4 */
@@ -560,7 +560,7 @@ footer,
 
 .feedback input {
   height: 2rem;
-  width: 5rem;
+  width: 10rem;
   border: none;
   margin: 1rem 0rem auto;
 }
