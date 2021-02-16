@@ -59,9 +59,7 @@ nav {
   justify-content: space-between;
   align-items: center;
 }
-.logo {
-  flex: 1;
-}
+
 
 nav ul {
   width: 40%;
@@ -115,6 +113,9 @@ nav a:hover {
 @media screen and (max-width: 970px) {
   body {
     overflow-x: hidden;
+  }
+  .logo{
+    height: 3rem;
   }
   .nav-links {
     position: absolute;
@@ -373,10 +374,10 @@ nav a:hover {
     grid-template-columns: 1fr;
   }
   .game-card img {
-    width: 20rem;
+   width: 15rem;
   }
   .game-card {
-    width: 20rem;
+    min-width: 25rem;
   }
 }
 /* ray-tracing section 4 */
@@ -559,7 +560,7 @@ footer,
 
 .feedback input {
   height: 2rem;
-  width: 5rem;
+  width: 15rem;
   border: none;
   margin: 1rem 0rem auto;
 }
