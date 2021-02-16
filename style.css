@@ -59,7 +59,9 @@ nav {
   justify-content: space-between;
   align-items: center;
 }
-
+.logo {
+  flex: 1;
+}
 
 nav ul {
   width: 40%;
@@ -114,7 +116,7 @@ nav a:hover {
   body {
     overflow-x: hidden;
   }
-  .logo img{
+  .logo img {
     height: 3rem;
   }
   .nav-links {
@@ -374,10 +376,10 @@ nav a:hover {
     grid-template-columns: 1fr;
   }
   .game-card img {
-   width: 15rem;
+    width: 20rem;
   }
   .game-card {
-    min-width: 25rem;
+    width: 20rem;
   }
 }
 /* ray-tracing section 4 */
@@ -433,7 +435,7 @@ nav a:hover {
 .buy {
   min-height: 100vh;
   background-color: #e6e6e6;
-  padding: 2rem;
+
   background-color: #1f1d1d;
 }
 .buy h2 {
@@ -527,6 +529,7 @@ nav a:hover {
 @media screen and (max-width: 970px) {
   .card {
     flex-direction: column;
+    width: 18rem;
   }
   .left img {
     height: 13rem;
@@ -560,7 +563,7 @@ footer,
 
 .feedback input {
   height: 2rem;
-  width: 15rem;
+  width: 5rem;
   border: none;
   margin: 1rem 0rem auto;
 }
